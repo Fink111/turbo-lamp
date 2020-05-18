@@ -1,0 +1,53 @@
+using System;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int height = 5;
+            bool star = true;
+
+            if (star == true)
+            {
+                Console.WriteLine("     *");
+            }
+            {
+            }
+
+            switch (height)
+            {
+                case 1:
+                    Console.WriteLine("     " + "X" + "     ");
+
+                    break;
+
+                case 2:
+                    Console.WriteLine("     " + "X" + "     ");
+                    Console.WriteLine("    " + "XXX" + "    ");
+                    break;
+                case 3:
+                    Console.WriteLine("     " + "X" + "     ");
+                    Console.WriteLine("    " + "XXX" + "    ");
+                    Console.WriteLine("   " + "XXXXX" + "   ");
+                    break;
+                case 4:
+                    Console.WriteLine("     " + "X" + "     ");
+                    Console.WriteLine("    " + "XXX" + "    ");
+                    Console.WriteLine("   " + "XXXXX" + "   ");
+                    Console.WriteLine("  " + "XXXXXXX" + "  ");
+                    break;
+                case 5:
+                    Console.WriteLine("     " + "X" + "     ");
+                    Console.WriteLine("    " + "XXX" + "    ");
+                    Console.WriteLine("   " + "XXXXX" + "   ");
+                    Console.WriteLine("  " + "XXXXXXX" + "  ");
+                    Console.WriteLine(" " + "XXXXXXXXX" + " ");
+                    break;
+            }
+            Console.WriteLine("     I");
+            Console.ReadKey();
+        }
+    }
+}
